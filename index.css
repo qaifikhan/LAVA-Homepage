@@ -1,0 +1,120 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+#logo {
+  color: #191a20;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+#topbar {
+  width: calc(100% - 104px);
+  box-shadow: 0px 2px 8px #ccc;
+  background-color: white;
+  
+  position: fixed;
+
+  padding: 20px 52px;
+/*   box-sizing: border-box; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-item {
+  font-size: 13px;
+  font-weight: 500;
+  color: #7a7a7a;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 0px 12px;
+}
+
+.menu-item:hover {
+  color: #fba70b;
+}
+
+#main-heading {
+  font-size: 52px;
+  color: #191a20;
+  font-weight: 900;
+}
+
+#txt-create {
+  color: #fba70b;
+}
+
+#para {
+  font-size: 17px;
+  color: #7a7a7a;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.btn-primary {
+  background-color: #fba70b;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  border: 0px;
+  padding: 15px 25px;
+
+  border-radius: 25px;
+}
+
+.btn-primary:hover {
+  background-color: #f1556a;
+}
+
+#landing-section {
+  padding: 10%;
+  background-image: url("https://lava-homepage.firebaseapp.com/assets/images/banner-bg.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.hyperlink {
+  text-decoration: none;
+}
+
+#second-section {
+  padding: 10%;
+}
+
+#feature-card-grid {
+  display: flex;
+}
+
+.feature-card {
+  box-shadow: 2px 2px 4px #ccc;
+  width: 33%;
+  padding: 60px 30px;
+  text-align: center;
+  margin: 0 12px;
+}
+
+.feature-card-heading {
+  margin-top: 0px;
+  font-size: 22px;
+  color: #1e1e1e;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.feature-card-desc {
+  font-size: 15px;
+  line-height: 25px;
+  color: #888;
+  font-weight: 400;
+}
+
+.feature-card-btn {
+  background-color: #f4813f;
+}
